@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<!--html start-->
+<html>
+	<!--hhead start-->
+	<head>
+		<title>Premium Music Store |INDEX</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="icon" href="../img/ggg.jpg">
+		<style type="text/css">
+			*
+			{
+			margin:0px
+			}
+			header
+			{
+				
+				background-color:#262222;
+				width:1350px;
+				height:230px;
+				
+			}
+			nav 
+			{
+				background-color:#262222;
+				width:1350px;
+				height:40px;
+				margin-left:0px;
+				margin-top:5px;
+			}
+			main 
+			{
+				background-color:#F18E186;
+				width:500px;
+				 height:450 px;
+				 margin-top: 10px;
+			}
+			a
+			{
+				text-decoration: none; 
+				font-family: Eras ITC;
+				color: white;
+			}
+			.navLink
+			{
+				height: 30px;
+				padding-top:2px;
+				text-align: center;
+				color: white;
+			}
+			.navLink:hover
+			{
+			 
+				background-color: white;
+				transition: 0.4s;
+				opacity: 0.6;
+			}
+			footer
+			{
+				background-color:#262222;
+				width:1350px;
+				height:80px;
+				margin-top:10px;
+				margin-bottom:5px;
+			}
+			.footer_nav
+			{
+				color: white;
+			}
+		</style> 
+		<script type="text/javascript">
+			
+			var img=["../img/st.jpg","../img/1974.jpg","../img/nep.jpg","../img/bipul.jpg" ];
+			var c=1;
+
+			function imgchanging()
+			{
+				if(c==img.length)
+				{
+					c=0;
+
+
+				}
+				document.getElementById("change").src=img[c];
+				c++;
+				setTimeout("imgchanging()", 2000);
+			}
+		
+		</script>
+		
+	</head>
+	<!--head end -->
+	<!--body start-->
+	<body style="margin-top:0px;margin:0px" onload="imgchanging()" onload="imgchanging2()">
+		<!--header start-->
+		<header>
+		<!-- for first division after header-->
+		
+		<div style="width:1350px;height:180px;background-color:#262222">
+			
+			<!--logo start-->
+			<div style="background-color:#FD5D34;width:180px; height:160px;margin-left:10px;margin-bottom:10px;margin-top:10px;float:left;">
+			<!--logo end-->		
+				<img src="../img/LOGO.png" height="160px" width="180px"
+					 alt="logo" usemap="#Map" />
+					<map name="Map" id="Map">
+	    			<area alt="logo" title="logo" href="../indexpage.html" shape="poly" coords="2,2,2,885,1120,886,1122,191,1119,2" />
+	    
+					</map>
+			</div>
+			<div style="width:1170;height:230px;">
+				<!-- for the title of the Store-->
+				<div style="width:1170;height:115px;">
+				<a href="../indexpage.html" style="float:left;font-size: 50px;color:#EFCE15; margin-left:20px;font-family: Candara ; margin-top: 40px; text-decoration: bold;"> <b>Premium Music Store</b> </a>
+				</div>
+
+			<!--  for searchbox-->
+				<div  style="background-color:#262222;width:400px;height:35px;margin-left:10px;float:left; border-radius: 15px 15px ; margin-top: 5px;">
+						<link rel="stylesheet" href="../css/style.css">
+						<script type="text/javascript">
+							function active()
+							 {
+								var searchBar = document.getElementById('searchbar');
+								if (searchBar.value =='Search...') 
+								{
+									searchbar.value=''
+									searchbar.placeholder='Search...'
+								}
+							}
+						
+						</script>
+						<form action=" search.php" method="post" >
+							<input type="text" id="searchBar" placeholder="" value="Search..." maxlength="25" autocomplete="off" onmousedown=" active();" onblur=""/ >
+							<input type="Submit" id="searchBtn" value="Go!"> 
+						</form>
+				</div>
+		
+		</div>
+		</div>
+		<!-- for the navigation bar-->
+		<nav>
+			<div  style="width:1366px;margin-left:30px;">
+			<!--for index the pages-->
+			<div  class="navLink"style="background-color:#F7941D; width:140px; height:35px;margin-left:15px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;">
+				<!--for the navigation link of home page-->
+				<a href="../indexPage.html" style="text-decoration:none; margin-left: 5px; font-family: Eras ITC; color: black; font-size: 18px; ">
+				Home </a> 
+			</div>
+			<!--for About us the pages-->
+			<div class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;">
+				<!--for the navigation link of About us page-->
+				
+				<a href="../Pages/AboutUs.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; ">
+				About Us </a> 
+			</div>
+			<!--for our service the pages-->
+			<div  class="navLink"style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;" >
+			<!--for the navigation link of our service page-->
+				
+				<a href="../Pages/OurService.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px;"> Our Service </a> 
+			</div>
+			</div>
+			<!--for news the pages-->
+			<div class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;">
+			<!--for the navigation link of NEWS page-->
+				
+				<a href="../Pages/NEWS.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; "> NEWS </a> 
+			</div>
+			<!--for collection  pages-->
+			<div class="navLink" style="background-color:#F7941D; width:130px; height:35px;margin-left:45px;margin-top:3px;float:left;  border-radius:5px 5px 5px 5px;">
+			<!--for the navigation link of About us page-->
+				
+				<a href="../Pages/Collection.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; ">
+				Collection </a> 
+			</div>
+			<!--for gallery the pages-->
+			<div class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left;  border-radius:5px 5px 5px 5px;">
+			<!--for the navigation link of gallery page-->
+				
+				<a href="../Pages/Gallery.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; ">
+				Gallery </a> 
+			</div>
+			
+			</div>
+		</nav>
+			<!-- for the first main-->
+			</header>
+		<!--header end-->
+			<main style="background-color:#F1BFA6;width:500px; height:660 px;margin-top: 10px; ">
+			
+			<div style="background-color:#F1BFA6; width:1350px; height:660px;margin-top:5px;">
+			
+			<!-- for the photo 1-->
+			
+			<div  style="background-color:#550A14;width:300px;height:250px;margin-top:50px;margin-left:70px;float:left;">
+			<img id="change" src="../img/bipul.jpg" height="250px" width="300px">		
+					</div>
+					
+			
+			<!-- for the photo 2-->
+			
+			<div  style="background-color:#F8011E;width:300px;height:250px;margin-top:50px;margin-left:100px;float:left;">
+					<img  src="../img/cajon.jpg"  height="250px" width="300px">
+					
+					
+					</div>
+					
+			
+			<!-- for the photo 3-->
+			
+			<div  style="background-color:#6D328D;width:300px;height:250px;margin-top:50px;margin-left:70px;float:left;">
+					
+					<img src="../img/band2.jpg" name="slide" width="300px" height="250px">
+
+					<script type="text/javascript">
+						var image1=new Image();
+						image1.src="../img/band1.jpg";
+
+						var image2=new Image();
+						image2.src="../img/ag.jpg";
+
+						var image3=new Image();
+						image3.src="../img/band2.jpg";
+
+						var image4=new Image();
+						image4.src="../img/drumset.jpg";
+						//variable that will increment through the images
+						var step=1
+						
+						function slideit(){ 
+						
+							//if browser does not support the image object, exit.
+							if (!document.images)
+							return;
+
+							document.images.slide.src=eval("image"+step+".src");
+
+							if (step<3)
+								step++;
+							else
+								step=1;
+
+							//call function "slideit()" every 2.5 seconds
+							setTimeout("slideit()",2200);
+						}
+					    slideit();
+
+					</script>
+					</div>
+					
+			<!-- for the video file-->
+			
+			<div  style="background-color:#F26522;width:300px;height:250px;margin-top:50px;margin-left:70px;float:left;">
+					
+					<iframe width="300px" height="250px" src="https://www.youtube.com/embed/mr1L4ezfVhM" frameborder="0" allowfullscreen></iframe>
+					</div>
+					
+			
+			<!-- for the video file-->
+			
+			<div  style="background-color:#F26522;width:300px;height:250px;margin-top:50px;margin-left:100px;float:left;">
+					
+					<iframe width="300px" height="250px" src="https://www.youtube.com/embed/cdTuh9N1R9s" frameborder="0" allowfullscreen></iframe>
+					</div>
+					
+			
+			<!-- for the photo file-->
+			
+			<div  style="background-color:#827816;width:300px;height:250px;margin-top:50px;margin-left:70px;float:left;">
+					
+					<iframe width="300px" height="250px" src="https://www.youtube.com/embed/340a5iPaZxQ" frameborder="0" allowfullscreen></iframe>
+					</div>
+			
+		
+		<!-- end of first main-->
+		</main>
+		
+	
+	<!-- for footer-->
+	<footer>
+		
+		<!-- for facebook-->
+		<img src="../img/fb1.png" height="60px" width="60px" style="margin-left: 10px; margin-top: 10px;"
+			< alt="" usemap="#Map0" />
+				<map name="Map0" id="Map0">
+    			<area alt="facebook" title="facebook" href="https://www.facebook.com/" shape="poly" coords="4,1,3,125,127,126,127,17,124,0" />
+    
+				</map>
+				<!-- for twitter-->
+		<img src="../img/twitter1.png" height="60px" width="60px" style="margin-left: 10px; margin-top: 10px;"  alt="" usemap="#Map1" />
+			<map name="Map1" id="Map1">
+			    <area alt="gmail" title="gmail" href="https://www.twitter.com/" shape="poly" coords="4,1,3,125,127,126,127,17,124,0" />
+			    <area alt="gmail" title="gmail" href="https://www.twitter.com/" shape="poly" coords="3,2,3,124,127,127,128,14,124,1" />
+			    
+			</map>
+			<!-- for gmail-->
+		<img src="../img/gmail1.png" height="60px" width="60px" style="margin-left: 10px; margin-top: 10px;"
+		 alt="gmail" usemap="#Map2" />
+		<map name="Map2" id="Map2">
+    		<area alt="gmail" title="gmail" href="https://www.gmail.com/" shape="poly" coords="4,1,2,127,126,126,127,1,3,125,127,126,127,17,124,0" />
+    		<area alt="gmail" title="gmail" href="https://www.gmail.com/" shape="poly" coords="3,2,3,124,127,127,128,14,124,1" />
+    		<area alt="gmail" title="gmail" href="https://www.gmail.com/" shape="rect" coords="4,1" />
+    
+		</map>
+
+		<p style="color:white; font-size: 18px; font-family: Eras ITC; margin-top:-40px; margin-left: 250px;">Copyright &copy; Pratik Khadka </p>
+		
+			<p id="demo"></p>
+
+
+			<a href="../pages/Gallery.html" class="footer_nav" style="float: right;"> &nbspGallery&nbsp &nbsp</a> 
+			<a href="../pages/Collection.html" class="footer_nav" style="float: right;"> |&nbspCollection&nbsp|</a> 
+			<a href="../pages/NEWS.html" class="footer_nav" style="float: right;"> |&nbspNEWS&nbsp</a> 		 
+			<a href="../pages/OurService.html" class="footer_nav" style="float: right;"> |&nbspOur Service&nbsp</a> 
+			<a href="../pages/AboutUs.html" class="footer_nav" style="float: right;">  |&nbspAbout Us&nbsp</a> 
+			<a href="../indexpage.html" class="footer_nav" style="float: right; "> &nbspHome&nbsp</a> 
+			
+			
+			<br>
+		
+	</footer>
+	</body>
+	<!--body end-->
+</html>
+<!--html end-->

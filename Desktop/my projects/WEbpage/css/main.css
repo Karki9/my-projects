@@ -1,0 +1,44 @@
+	*
+	{
+		margin: 0px auto;
+		font-family: century;
+	}
+	header
+	{
+		text-align: left;
+	}
+	
+	nav
+	{
+		background-color:#262222;
+		width:1350px;
+		height:40px;
+		margin-left:0px;
+		margin-top:5px;
+	}
+	.navLink
+	{
+		height: 30px;
+		padding-top:2px;
+		text-align: center;
+		color: white;
+	}
+	.navLink:hover
+	{
+		color: red;
+		background-color: white;
+		transition: 0.5s;
+	}
+	
+	footer
+	{
+		background-color:#262222;
+				width:1350px;
+				height:80px;
+				margin-top:10px;
+				margin-bottom:5px;
+	}
+	.footer_nav
+	{
+		color:white;
+	}

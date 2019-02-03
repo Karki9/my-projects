@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "59606754126",
+    "firebase_url": "https://smarttraveller-170dd.firebaseio.com",
+    "project_id": "smarttraveller-170dd",
+    "storage_bucket": "smarttraveller-170dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59606754126:android:d7c29224dc79ab11",
+        "android_client_info": {
+          "package_name": "com.example.khadka.ui1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59606754126-dkf4mi193fq3vn270trflobblnlfu34o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khadka.ui1",
+            "certificate_hash": "621683828721472f0682bf84e6ef942369383f7d"
+          }
+        },
+        {
+          "client_id": "59606754126-q9prpesvdt8jeq2mobt4pciumku1guja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjNK22WISwy8xUPcte4FAIfnQTDNsHmho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59606754126-q9prpesvdt8jeq2mobt4pciumku1guja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khadka.ui1.AccountActivity.Login_Activity"
+    android:orientation="vertical"
+    android:id="@+id/activity_about_us">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="#23283a">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:text="About this App"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            android:text=" Our Main motive is to help you travel easy with all the travel informations and guidaince in your phone. Welcome to smart traveller application. Our Main motive is to help you travel easy with all the travel informations and guidaince in your phone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            android:text="This application is still in development process. if you have any queries, you can contact the developer."/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/bir_hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            >
+
+            <LinearLayout
+                android:background="#23283a"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Click Here     ====>"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#fff"/>
+
+                <com.github.clans.fab.FloatingActionMenu
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/floatingActionMenu"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_ui"
+            android:padding="10dp"
+            android:background="@color/backgroundcolor"
+            android:gravity="center">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leave Feedbacks"
+                android:textSize="40sp"
+                android:textColor="#150000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feedback"
+                android:layout_gravity="center"
+                android:padding="10sp"
+                android:textSize="15sp"
+                android:textColor="#150000"/>
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/fullname_Aboutus"
+                    android:textColorHint="#fff"
+                    android:background="@drawable/rounded_edittext"
+                    android:padding="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Full name" />
+
+                <EditText
+                    android:id="@+id/email_Aboutus"
+                    android:textColorHint="#fff"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:padding="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Working Email Address"/>
+
+                <EditText
+                    android:id="@+id/message_Aboutss"
+                    android:textColorHint="#fff"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:padding="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:hint="Your Feedbacks Here"/>
+
+                <Button
+                    android:id="@+id/button_Aboutus"
+                    android:layout_marginTop="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="SUBMIT"
+                    android:textColor="#fff"
+                    android:background="@drawable/buttonstylepink"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <!--Developer-->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/bag_card"
+                    android:layout_width="320dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true">
+
+                    <LinearLayout
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/circlebackgroundyellow"
+                            android:src="@drawable/man"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:text="Pratik Khadka"
+                            android:textSize="20sp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"
+                            android:layout_margin="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="KhadkaPratik080@gmail.com"
+                            android:textSize="15sp"
+                            android:padding="5dp"
+                            android:textColor="#100101"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="9803317431"
+                            android:textSize="15sp"
+                            android:padding="5dp"
+                            android:textColor="#100101"
+                            />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

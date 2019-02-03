@@ -1,0 +1,91 @@
+/*
+Theme Name:     Twenty Fifteen Child
+Description:    
+Author:         Mike Simmons
+Template:       twentyfifteen
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../twentyfifteen/style.css");
+
+/* your theme customizations go below this line */
+
+/* to display a larger logo image - change 20% to a value between ~ 15% to 5% (whatever works best) */
+
+.site-header {
+		padding: 0 20%;
+	}
+
+/* remove posts date TF June 2015 */
+.entry-date {
+    display: none;
+}
+
+/* remove duplicate h1 tags TF November 2015 */
+.entry-content h1 {
+    display: none;
+}
+
+
+/* remove author info TF June 2015 */
+.author-info {
+    display: none;
+}
+
+/* remove post details / name / category TF June 2015 */
+.entry-footer {
+    display: none;
+}
+
+/* remove 'proudly powered by wordpress' TF June 2015 */
+.site-info {
+    display: none;
+}
+
+
+/* Tim's Blog List lcp plugin November 2015*/
+
+.lcp_excerpt{
+font-style:italic;
+font-color:
+}
+
+.lcp_date{
+font-style:italic;
+font-color:
+}
+
+.lcp_title{
+font-style:italic;
+font-color:
+}
+
+/* lesson/exercise/answer May 2016 */
+
+ul.lessonlinks{
+	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #333;	
+		}	
+	ul.lessonlinks li{
+		 float: left;
+		}
+		ul.lessonlinks li.answer{		
+			padding:0;
+			background:transparent;		
+			}	
+		ul.lessonlinks li a {
+			display: inline-block;
+    			color: white;
+    			text-align: center;
+    			padding: 14px 16px;
+    			text-decoration: none;
+			}	
+		li.lessonlinks a:hover {
+    			background-color: #111;
+			}
+
+			

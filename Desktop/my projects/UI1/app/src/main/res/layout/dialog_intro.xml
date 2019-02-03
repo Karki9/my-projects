@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/dialog_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="The following features of Smart Traveller are listed below: "
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvintro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_info"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="1. Search Places"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvintro2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvintro"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="2. Find Routes"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvintro3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvintro2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="3. Pick a Place to save location"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvintro4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvintro3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="4. Search Nearby Places"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvintro5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvintro4"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="5. Travel Agencies Details"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvintro6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvintro5"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="6. Information of Destinations"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvintro7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvintro6"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="7. Adding Travel Guide Details"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvintro8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvintro7"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="8. Emergency Contacts"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvintro9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvintro8"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="9. Travel Tips"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tvintro8">
+
+        <Button
+            android:id="@+id/dialog_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:background="#00D800"
+            android:text="Got it"/>
+    </LinearLayout>
+</RelativeLayout>

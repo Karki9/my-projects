@@ -1,0 +1,139 @@
+<resources>
+    <string name="SMART_TRAVELLER">SMART TRAVELLER </string>
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="app">Smart Traveller</string>
+    <string name="feedback">Support the Developer by Dropping feedback.</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="action_Logout">Log Out</string>
+    <string name="action_Travel">Travel Partners</string>
+    <string name="action_tips">Travel Tips</string>
+    <string name="action_Emergency">Emergency Contacts</string>
+    <string name="action_Bag">Whats in your Bag</string>
+    <string name="action_Map">Find in Map</string>
+    <string name="action_Picker">Pick a Place</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed,check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="prompt_password">Please enter your password</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="title_activity_search_map">Map</string>
+    <string name="Feedback">Support the Developer by Dropping feedbacks</string>
+    <!-- for splash screen -->
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Explore</string>
+    <string name="subtitle_slide1">Explore places with Smart Traveller</string>
+    <string name="desc_slide1">We provide you all the travel guidance in your phone</string>
+    <string name="subtitle_slide2">You can skip this slide for no reason</string>
+    <string name="title_slide2">This is title</string>
+    <string name="desc_slide2">Skip this slide and get a change to visit jail for 3 days. Accomodations are for free</string>
+    <string name="title_slide3">User Profile</string>
+    <string name="subtitle_slide3">Welcome to your profile</string>
+    <string name="desc_slide3">I was just kidding. this is the last slide. you can skip for no reasons</string>
+    <string name="title_activity_travel_">Travel_Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_route_find_">Map</string>
+    <string name="title_activity_nearby_map">Map</string>
+    <string name="send_to">Share</string>
+
+    <!-- for information-->
+    <string name="lumbini"> One of the worlds most important spiritual sites is home to the historic birthplace of the Buddha.
+        Today you can visit over 25 international Buddhist monasteries, study Buddhism, meditation and visit Buddhas birthplace itself within the sacred Mayadevi Gardens!Mayadevi Temple is one of the important sites in the Lumbini Garden with many historians and archaeologists referring to it as the place of birth of Lord Buddha. Inscriptions on the Ashoka Pillar also refers the spot as his birthplace.
+        It is said that here the newly born Prince took his first seven steps and gave a peace message to humanity.
+        This happened in the beautiful Sal grove, which is now the focal point of the Lumbini Garden.
+        ///
+
+        Mayadevi, the Queen of Shakya King Suddhodhana of Kapilvastu, while passing through the Lumbini Garden, on the day of  Baishakha Purnima (full moon day of May in 623 BC) took a bath in the Pushkarini (the Sacred Pond) and soon after she took support of a tree branch, and gave birth to the Prince Siddhartha, who became the Buddha.
+        Visit beautiful monasteries built by different Buddhist countries like China, Japan, Sri Lanka, Myanmar, Germany and observe the different architecture and prayer areas.
+        Soak up the peaceful atmosphere and above all  visit the Mayadevi Temple which dates back to 2,200 years, which archaeological evidence proclaim as the birthplace of Siddhartha Gautam or Lord Buddha in 623 BC.
+        You can walk around the garden or find a peaceful meditative spot to contemplate. The focal point for pilgrims is a sandstone carving depicting the birth of the Buddha, reputedly left here by the Malla King Ripu Malla, in the 14th century, when Mayadevi was worshipped as an incarnation of the Hindu mother goddess. Another main attraction is the Ashokan Pillar, which was built by the great Indian Emperor Ashoka while visiting the birthplace of Buddha back in 249 BC.
+        One can visit the Panditarama Vipassana Center for some yoga and meditation and interact with the monks, who live in the vicinity of the monasteries, devoting their time to balancing the environment with religious worship.
+        The Lumbini Garden covers an area of 2.56 sq km or 1 x 3 sq miles and encompasses three zones each covering one square mile connected with walkways and a canal. The area has sub tropical monsoon climate with warm wet season.
+        If you are planning on traveling to exotic places in South Asia looking to find some Nirvana, then do not miss Lumbini in Nepal.</string>
+    <string name="title_activity_route__finder">Map</string>
+
+    <string name="patan">
+        Lalitpur Metropolitan City, historically Patan, is the third largest city of Nepal after Kathmandu and Pokhara and it is located in the south-central part of Kathmandu Valley which is a new metropolitan city of Nepal.
+        Lalitpur is also known as Manigal. It is best known for its rich cultural heritage, particularly its tradition of arts and crafts.
+        It is called city of festival and feast, fine ancient art, making of metallic and stone carving statue. At the time of the 2011 Nepal census it had a population of 226,728 in 54,748 individual households.
+        The city received extensive damage from an earthquake on 25 April 2015.
+    </string>
+
+    <string name="kathmandu"> Kathmandu, Nepals capital, is set in a valley surrounded by the Himalayan mountains. At the heart of the old city’s mazelike alleys is Durbar Square, which becomes frenetic during Indra Jatra, a religious festival featuring masked dances.
+        Many of the city’s historic sites were damaged or destroyed by a 2015 earthquake. Durbar Squares palace, Hanuman Dhoka, and Kasthamandap, a wooden Hindu temple, are being rebuilt.
+        The squares Maju Deval, a pagoda known for its steep stairs,
+        is also being rebuilt. The city’s other notable religious sites being rebuilt include Swayambhunath,
+        a Buddhist temple known as the “Monkey Temple” for its main inhabitants, and Boudhanath, a massive Buddhist stupa.
+        Pashupatinath, a Hindu temple dating to the 1400s, survived the earthquake. South of the Bagmati River is the city of Patan,
+        renowned for metalsmithing and other crafts, and home to the Patan Museum, housing Hindu, Buddhist and Tantric artifacts.
+        Regional food specialties are momos (dumplings), dal bhat (lentils, rice and vegetables) and Newari buffalo dishes.</string>
+
+
+    <string name="bhaktapur"> Bhaktapur, literally translates to Place of devotees. Also known as Khwopa, it is an ancient Newa city in the east corner of the Kathmandu Valley, Nepal, about 8 miles from the capital city, Kathmandu.
+        It is located in Bhaktapur District in the Bagmati Zone. It is administratively divided into 10 wards. Khwopa was the largest of the three Newa kingdoms of the Kathmandu Valley and was the capital of Nepal during the great
+        "Malla Kingdom" until the second half of the 15th century. It has a population of more than 81,728, of which the vast majority are still Newa Nepa mi. Historically more isolated than the other two kingdoms, Kathmandu and Patan,
+        Bhaktapur has a distinctly different form of [[|Nepal Bhasa] language. Bhaktapur has the best-preserved palace courtyards and old city center in Nepal and is listed as a World Heritage Site by UNESCO for its rich culture, temples,
+        and wood, metal and stone artworks. This is supported by the restoration and preservation efforts of German-funded Bhaktapur Development Project.
+        The city is famous for a special type of curd called "Ju Ju dhau. </string>
+
+    <string name="pokhara"> Pokhara is a city on Phewa Lake, in central Nepal. It’s known as a gateway to the Annapurna Circuit, a popular trail in the Himalayas. Tal Barahi Temple, a 2-story pagoda, sits on an island in the lake.
+        On the eastern shore, the Lakeside district has yoga centers and restaurants. In the city’s south, the International Mountain Museum has exhibits on the history of mountaineering and the people of the Himalayas.
+        West of the museum and past the small Devi’s Falls, is the Tashi Ling Tibetan settlement, where Tibetan crafts are made. The bright-white World Peace Pagoda, with its golden Buddha statues, stands on a high ridge overlooking the lake and the city.
+        The Bindhyabasini Temple, dedicated to the Hindu goddess Durga, is in the city’s north, on a hill close to the old bazaar. The nearby Gurkha Memorial Museum has exhibits on the history of the Gurkha regiments, including weapons and uniforms.
+        West of here, Sarangkot Hill offers panoramic views of the mountains. It's also a popular launch site for paragliders.</string>
+
+    <string name="nagarkot"> Nagarkot is a village in central Nepal, at the rim of the Kathmandu Valley.
+        It’s known for its views of the Himalayas, including Mount Everest to the northeast, which are especially striking at sunrise and sunset.
+        The surrounding scrubland is laced with trails and home to many butterflies.
+        To the west is the ancient, pagoda-style Changunarayan Temple, dedicated to Vishnu and a Hindu pilgrimage site.</string>
+
+    <string name="durbar_square">Kathmandu Durbar Square (Basantapur Darbar Kshetra) in front of the old royal palace of the former Kathmandu Kingdom is one of three Durbar (royal palace) Squares in the Kathmandu Valley in Nepal, all of which are UNESCO World Heritage Sites.Basantapur is the home of newars
+
+Several buildings in the Square collapsed due to a major earthquake on 25 April 2015. Durbar Square was surrounded with spectacular architecture and vividly showcases the skills of the Newar artists and craftsmen over several centuries. The Royal Palace was originally at Dattaraya square and was later moved to the Durbar square.[1]
+
+The Kathmandu Durbar Square held the palaces of the Malla and Shah kings who ruled over the city. Along with these palaces, the square surrounds quadrangles, revealing courtyards and temples. It is known as Hanuman Dhoka Durbar Square, a name derived from a statue of Hanuman, the monkey devotee of Lord Ram, at the entrance of the palace.</string>
+
+    <string name="manang"> Manang is a town in the Manang District of Nepal. It is located at 28°40;0N 84°1;0E with an altitude of 3,519 metres. According to the preliminary result of the 2011 Nepal census it has a population of 6,527 people living in 1,495 individual households. Its population density is 3 persons/km².
+        It is situated in the broad valley of the Marshyangdi River to the north of the Annapurna mountain range. The river flows to the east. To the west, the 5,416-metre Thorong La pass leads to Muktinath shrine and the valley of the Gandaki River.
+        To the north there is the Chulu East peak of 6,584 m. Most groups trekking around the Annapurna range will take resting days in Manang to acclimatize to the high altitude, before taking on Thorong La pass. The village is situated on the northern slope, which gets the most sunlight and the least snow cover in the winter.
+        The cultivation fields are on the north slope with terraces. There are now motorable road as well as trails where goods are transported on jeep or mule trains or carried by porters. A small airport, located 2.5 km east of the town, serves the whole valley. The airport was begun in 1985.</string>
+    <string name="ghandruk"> Ghandruk is a town and Village Development Committee in Kaski District in the Gandaki Zone of northern-central Nepal. At the time of the 1991 Nepal census it had a population of 4,748 persons living in 1,013 individual households. Ghandruk is a popular place for treks in the Annapurna range of Nepal,
+    with easy trails and various accommodation possibilities.From Ghandruk there are views to the mountains of Annapurna including Machapuchare, Himchuli. By this reason its purely in natural setting.</string>
+
+    <string name="title_activity_travel_agencies">TravelAgencies</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_place__picker">Map</string>
+    <string name="title_activity_place_picker">Map</string>
+    <string name="title_activity_travel__guide">Travel_Guide</string>
+    <string name="title_activity_add_travel_guide">AddTravelGuide</string>
+    <string name="title_activity_maps__picker">Map</string>
+</resources>

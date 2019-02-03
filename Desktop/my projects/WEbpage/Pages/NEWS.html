@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<!--html start-->
+<html>
+	<!--hhead start-->
+	<head>
+		<title>Premium Music Store |INDEX</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="icon" href="../img/ggg.jpg">
+		<style type="text/css">
+			*
+			{
+			margin:0px
+			}
+			header
+			{
+				
+				background-color:#262222;
+				width:1350px;
+				height:230px;
+				
+			}
+			nav 
+			{
+				background-color:#262222;
+				width:1350px;
+				height:40px;
+				margin-left:0px;
+				margin-top:5px;
+			}
+			.navLink
+			{
+				height: 30px;
+				padding-top:2px;
+				text-align: center;
+				color: white;
+			}
+			.navLink:hover
+			{
+				
+				background-color: white;
+				transition: 0.4s;
+				opacity: 0.6;
+			}
+			main 
+			{
+				
+				 margin-top: 10px;
+				 
+				width:500px;
+				 height:660 px;
+				 margin-top: 10px;
+			}
+			a
+			{
+				text-decoration: none; 
+				font-family: Eras ITC;
+				color: white;
+			}
+			footer
+			{
+				background-color:#262222;
+				width:1350px;
+				height:80px;
+				margin-top:10px;
+				margin-bottom:5px;
+			}
+			.footer_nav
+			{
+				color: white;
+			}
+		</style> 
+		<script type="text/javascript">
+			var img=["../img/shadows.jpg","../img/nepal.jpg","../img/jugaa.jpg","../img/kamero.jpg" ];
+			var c=1;
+
+			function imgchange()
+			{
+				if(c==img.length)
+				{
+					c=0;
+
+
+				}
+				document.getElementById("changing").src=img[c];
+				c++;
+				setTimeout("imgchange()", 2000);
+			}
+		</script>
+	</head>
+	<!--head end -->
+	<!--body start-->
+	<body style="margin-top:0px;margin:0px" onload="imgchange()">
+		<!--header start-->
+		<header>
+		<!-- for first division after header-->
+		
+		<div style="width:1350px;height:180px;background-color:#262222">
+			
+			<!--logo start-->
+			<div style="background-color:#FD5D34;width:180px; height:160px;margin-left:10px;margin-bottom:10px;margin-top:10px;float:left;">
+			<!--logo end-->		
+				<img src="../img/LOGO.png" height="160px" width="180px"
+					 alt="logo" usemap="#Map" />
+					<map name="Map" id="Map">
+	    			<area alt="logo" title="logo" href="../indexpage.html" shape="poly" coords="2,2,2,885,1120,886,1122,191,1119,2" />
+	    
+					</map>
+			</div>
+			<div style="width:1170;height:230px;">
+				<!-- for the title of the Store-->
+				<div style="width:1170;height:115px;">
+				<a href="../indexpage.html" style="float:left;font-size: 50px;color:#EFCE15; margin-left:20px;font-family: Candara ; margin-top: 40px; text-decoration: bold;"> <b>Premium Music Store</b> </a>
+				</div>
+
+			<!--  for searchbox-->
+				<div  style="background-color:#262222;width:400px;height:35px;margin-left:10px;float:left; border-radius: 15px 15px ; margin-top: 5px;">
+				<link rel="stylesheet" href="../css/style.css">
+				<script type="text/javascript">
+					function active()
+					 {
+						var searchBar = document.getElementById('searchbar');
+						if (searchBar.value =='Search...') 
+						{
+							searchbar.value=''
+							searchbar.placeholder='Search...'
+						}
+					}
+				
+				</script>
+				<form action=" search.php" method="post" >
+				<input type="text" id="searchBar" placeholder="" value="Search..." maxlength="25" autocomplete="off" onmousedown=" active();" onblur=""/ >
+				<input type="Submit" id="searchBtn" value="Go!"> 
+				</form>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		<!-- for the navigation bar-->
+		<nav>
+			<div style="width:1366px;margin-left:30px;">
+			<!--for index the pages-->
+			<div class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:15px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;">
+				<!--for the navigation link of home page-->
+				<a href="../indexPage.html" style="text-decoration:none; margin-left: 5px; font-family: Eras ITC; color: black; font-size: 18px; ">
+				Home </a> 
+			</div>
+			<!--for About us the pages-->
+			<div class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;">
+				<!--for the navigation link of About us page-->
+				
+				<a href="../Pages/AboutUs.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; ">
+				About Us </a> 
+			</div>
+			<!--for our service the pages-->
+			<div class="navLink"  style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;" >
+			<!--for the navigation link of our service page-->
+				
+				<a href="../Pages/OurService.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px;"> Our Service </a> 
+			</div>
+			</div>
+			<!--for news the pages-->
+			<div  class="navLink"class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;">
+			<!--for the navigation link of NEWS page-->
+				
+				<a href="../Pages/NEWS.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; "> NEWS </a> 
+			</div>
+			<!--for collection  pages-->
+			<div  class="navLink"style="background-color:#F7941D; width:130px; height:35px;margin-left:45px;margin-top:3px;float:left;  border-radius:5px 5px 5px 5px;">
+			<!--for the navigation link of About us page-->
+				
+				<a href="../Pages/Collection.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; ">
+				Collection </a> 
+			</div>
+			<!--for gallery the pages-->
+			<div  class="navLink"style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left;  border-radius:5px 5px 5px 5px;">
+			<!--for the navigation link of gallery page-->
+				
+				<a href="../Pages/Gallery.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; ">
+				Gallery </a> 
+			</div>
+			
+			</div>
+		</nav>
+		</header>
+		<!--header end-->
+			<!-- for the first main-->
+			<main >
+			<!-- for the div of main-->
+			<div style="background-color:#F7941D; width:1350px; height:900px;margin-top:5px;">
+			
+			<!-- for the head image of band 1-->
+			<div  style="background-color:#2A2625;width:1000px;height:350px;margin-top:5px;margin-left:100px;float:left;">
+			<img id="changing" src="../img/shadows.jpg" height="350px"width="1000px;" >
+					
+			</div>
+					
+			<!-- for the first image of the first band and its news-->
+			<div  style="background-color:#F7941D;width:800px;height:490px;margin-top:20px;margin-left:20px;float:left;">
+				<article style="background-color:#F7941D; width: 780px; height: 150px; margin-left: 10px; margin-top: 10px; ">
+				<img src="../img/albatros.jpg" height="150px" height="150px" style="margin-left: 10px;">
+								<!-- for the text-->
+								<div style="background-color: #F7941D; width: 530px; height: 150px; margin-right: 10px; float: right">
+									<p style="text-decoration: none; font-family: Eras ITC; font-size: 20px"> 
+									<b> Albatros on US tour.</b>
+									<br>
+							Alternative rock band Albatros set to leave for US for "gari khana deu" Tour 2. A member of four musician has marked as the sensational Nepali musician.
+							</p>
+							</br>
+				</article>
+				<article style="background-color:#F7941D; width: 780px; height: 150px; margin-left: 10px; margin-top: 10px; ">
+					<img src="../img/ugrakarma.jpg" width="210px" height="150px" style="margin-left: 10px;">
+								<!-- for the text-->
+								<div style="background-color: #F7941D; width: 530px; height: 150px; margin-right: 10px; float: right">
+									<p style="text-decoration: none; font-family: Eras ITC; font-size: 20px"> 
+									<b> UGRAKARMA  | HIMALAYAN DEATH METAL |</b>
+									<br>
+							The band is currently signed to French record label "Legion of Death" which will be releasing their upcoming album. UgraKarma's lyrical theme includes nihilism, atheism, death, torture and gore.
+							</p>
+							</br>
+				</article>
+				<article style="background-color:#F7941D; width: 780px; height: 150px; margin-left: 10px; margin-top: 10px; ">
+					<img src="../img/Underside.jpg" width="210px" height="150px" style="margin-left: 10px;">
+								<!-- for the text-->
+								<div style="background-color: #F7941D; width: 530px; height: 150px; margin-right: 10px; float: right">
+									<p style="text-decoration: none; font-family: Eras ITC; font-size: 20px"> 
+									<b> UNDERSIDE | BLACK SHEEP in Nepalese Metal |</b>
+									<br>
+							The band was able to gather the followers since their early days. Till date Underside has been part of various national & international events such as Silence Fest II, Silence Fest IV, Nepfest etc sharing stage with bands such as Vader, Behemoth & Decapitated.
+							</p>
+							</br>
+				</article>		
+			</div>
+			
+			<!-- for the advertisements of events -->
+			<div  style="background-color:#000000;width:300px;height:330px;margin-top:80px;margin-right:80px;float:right;">
+			
+			<!-- for the java script of rolling image-->
+					<a href="linked.html"
+				onMouseOver="document.myImage.src='../img/underground.jpg'"
+				
+				onMouseOut="document.myImage.src='../img/fest.jpg'">
+				<img name="myImage" src="../img/fest.jpg" width="300" height="330" />
+				</a>
+			</div>
+			<!-- end of first main-->
+		</main>
+		
+	<!-- for footer-->
+	<footer>
+		
+		<!-- for facebook-->
+		<img src="../img/fb1.png" height="60px" width="60px" style="margin-left: 10px; margin-top: 10px;"
+			< alt="" usemap="#Map0" />
+				<map name="Map0" id="Map0">
+    			<area alt="facebook" title="facebook" href="https://www.facebook.com/" shape="poly" coords="4,1,3,125,127,126,127,17,124,0" />
+    
+				</map>
+				<!-- for twitter-->
+		<img src="../img/twitter1.png" height="60px" width="60px" style="margin-left: 10px; margin-top: 10px;"  alt="" usemap="#Map1" />
+			<map name="Map1" id="Map1">
+			    <area alt="gmail" title="gmail" href="https://www.twitter.com/" shape="poly" coords="4,1,3,125,127,126,127,17,124,0" />
+			    <area alt="gmail" title="gmail" href="https://www.twitter.com/" shape="poly" coords="3,2,3,124,127,127,128,14,124,1" />
+			    
+			</map>
+			<!-- for gmail-->
+		<img src="../img/gmail1.png" height="60px" width="60px" style="margin-left: 10px; margin-top: 10px;"
+		 alt="gmail" usemap="#Map2" />
+		<map name="Map2" id="Map2">
+    		<area alt="gmail" title="gmail" href="https://www.gmail.com/" shape="poly" coords="4,1,2,127,126,126,127,1,3,125,127,126,127,17,124,0" />
+    		<area alt="gmail" title="gmail" href="https://www.gmail.com/" shape="poly" coords="3,2,3,124,127,127,128,14,124,1" />
+    		<area alt="gmail" title="gmail" href="https://www.gmail.com/" shape="rect" coords="4,1" />
+    
+		</map>
+		<p style="color:white; font-size: 18px; font-family: Eras ITC; margin-top:-40px; margin-left: 250px;">Copyright &copy; Pratik Khadka </p>
+		
+			<a href="../pages/Gallery.html" class="footer_nav" style="float: right;"> &nbspGallery&nbsp &nbsp</a> 
+			<a href="../pages/Collection.html" class="footer_nav" style="float: right;"> |&nbspCollection&nbsp|</a> 
+			<a href="../pages/NEWS.html" class="footer_nav" style="float: right;"> |&nbspNEWS&nbsp</a> 		 
+			<a href="../pages/OurService.html" class="footer_nav" style="float: right;"> |&nbspOur Service&nbsp</a> 
+			<a href="../pages/AboutUs.html" class="footer_nav" style="float: right;">  |&nbspAbout Us&nbsp</a> 
+			<a href="../indexpage.html" class="footer_nav" style="float: right; "> &nbspHome&nbsp</a> 
+			
+			
+			<br>
+
+		
+	</footer>
+	</body>
+	<!--body end-->
+</html>
+<!--html end-->

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.khadka.ui1.Pages.AddTravelGuide"
+    tools:showIn="@layout/activity_add_travel_guide"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new Guide"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/guideName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/guideAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Age" />
+
+    <EditText
+        android:id="@+id/guideAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Address" />
+    <EditText
+        android:id="@+id/guideContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Contact number" />
+
+    <EditText
+        android:id="@+id/guideProfileImageLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textUri"
+        android:hint="Image profile url" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/addNewUserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Guide"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
+
+</LinearLayout>

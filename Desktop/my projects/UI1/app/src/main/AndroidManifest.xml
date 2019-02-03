@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.khadka.ui1">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="label">
+        <activity android:name=".Pages.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AccountActivity.Register_Activity" />
+        <activity
+            android:name=".Pages.Home_Activity"
+            android:label="SMART TRAVELLER"
+            android:taskAffinity="com.example.khadka.ui1"
+            android:theme="@style/style2" />
+        <activity android:name=".AccountActivity.Login_Activity" />
+        <activity android:name=".AccountActivity.ResetPasswordActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCx2uQkatZz7b_Cam4w1uqSdKvWZKfb51c" />
+
+        <activity
+            android:name=".FrragmentsActivity.SearchMap"
+            android:label="@string/title_activity_search_map"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.TravelTips"
+            android:label="@string/title_activity_travel_"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.Emergency"
+            android:launchMode="singleTop"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.InformationDestination"
+            android:launchMode="singleTop"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Information.Lumbini"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".FrragmentsActivity.Route_Finder"
+            android:label="@string/title_activity_route__finder"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.Profile"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.Bag"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.AboutUs"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.TravelPartners"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Information.Nagarkot"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Information.Kathmandu"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Information.Patan"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Information.Bhaktapur"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Information.Pokhara"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.EditProfile"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.Travel_Guide"
+            android:label="@string/title_activity_travel__guide"
+            android:theme="@style/style2" />
+        <activity
+            android:name=".Pages.AddTravelGuide"
+            android:label="@string/title_activity_add_travel_guide"
+            android:theme="@style/style2" />
+        <activity android:name=".Pages.Update_Travel_Guide" />
+        <activity
+            android:name=".Pages.PlacePickerActivity"
+            android:label="@string/title_activity_maps__picker" />
+        <activity android:name=".Pages.Maps_Picker" />
+        <activity android:name=".Information.DurbarSquare" />
+        <activity android:name=".Information.Manang" />
+        <activity android:name=".Information.Ghandruk" />
+        <activity android:name=".Information.Ghorepani" />
+        <activity android:name=".Information.Jomsom"></activity>
+    </application>
+
+</manifest>

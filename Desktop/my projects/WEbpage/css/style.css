@@ -1,0 +1,27 @@
+#searchBar{
+	border: 1px solid #000000;
+	background-color: #00BFF3;
+	color:#2016A0;
+	font-family:Berlin Sans FB;
+	font-size: 25px;
+	padding: 10px;
+	outline: none;
+	width: 250px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-radius-topleft:10px; 
+	border-radius-bottomleft:10px; 
+
+}
+#searchBtn
+{
+	border: 1px solid #000000;
+	font-size: 25px;
+	padding: 10px;
+	background-color: #00BFF3;
+	color:#2016A0;
+	font-family:Berlin Sans FB;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+}

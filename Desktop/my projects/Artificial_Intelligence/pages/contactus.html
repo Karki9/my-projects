@@ -1,0 +1,234 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>Contact Us | Artificial Intelligence</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="icon" href="../images/logo.png">
+	<style type="text/css">
+	main
+	{
+		width: 1261px;
+	}
+	#title
+	{
+		margin-top: 16px;
+	}
+	.box
+	{
+		height: 250px;
+		width: 1221px;
+		margin: 20px 0px 0px 20px;
+	}
+	.text
+	{
+		height: 230px;
+		width: 750px;
+		margin-top:50px;
+	}
+	h4
+	{
+		margin: 20px 0px 0px 30px;
+		font-size: 22px;
+	}
+	.img1
+	{
+		height: 230px;
+		width: 270px;
+		margin: 10px 0px 0px 10px;
+		float: left;
+	}
+	.img2
+	{
+		height: 230px;
+		width: 270px;
+		margin: 10px 10px 0px 0px;
+		float: right;
+	}
+	#form_box
+	{
+		height: 400px;
+		width: 1221px;
+	}
+	#table
+	{
+		margin: 0px 0px 0px 125px;
+		float: left;
+	}
+	#messagebox
+	{
+		margin: 50px;
+		width: 400px;
+		height: 250px;
+		font-size: 17px;
+		background-color:#cacaca;
+		border-radius: 5px;
+		resize: none;
+		border:0px;
+		padding:5px;
+	}
+	#namebox
+	{
+		float: right;
+		margin: 20px 20px 0px 0px;
+		width: 400px;
+		height: 40px;
+		font-size: 17px;
+		background-color:#cacaca;
+		border-radius: 5px;
+		border:0px;
+	}
+	#emailbox
+	{
+		float: right;
+		margin: 20px 20px 0px 0px;
+		margin-top: 0px;
+		width: 400px;
+		height: 40px;
+		font-size: 17px;
+		background-color:#cacaca;
+		border-radius: 5px;
+		border:0px;
+	}
+	#submitbtn
+	{
+		margin-top: 20px;
+		height: 40px;
+		width: 85px;
+		font-size: 17px;
+		background-color:#cacaca;
+		border: 0;
+		margin-bottom: 20px;
+		border-radius: 5px;
+	}
+	#submitbtn:hover
+	{
+		background-color: black;
+		color: white;
+		transition: 0.4s;
+	}
+	</style>
+	<script type="text/javascript"></script>
+</head>
+<body>
+	<header>
+		<img src="../images/logo2.png" id="logo" usemap="#mapping">
+		<map name="mapping">
+			<area shape="rect" coords="810,35,430,120" href="../index.html">
+		</map>
+		<nav>
+			<ul>
+				<li><a href="../index.html"><div class="navLink" style="margin-left:10px;width:125px;">Home</div></a></li>
+				<li><a href="../pages/history.html"><div class="navLink" style="width:150px;">History</div></a></li>
+				<li><a href="../pages/evolution.html"><div class="navLink" style="width:150px;">Evolution</div></a></li>
+				<li><a href="../pages/howitworks.html"><div class="navLink" style="width:200px;">How It Works</div></a></li>
+				<li><a href="../pages/prosandcons.html"><div class="navLink" style="width:200px;">Pros & Cons</div></a></li>
+				<li><a href="../pages/future.html"><div class="navLink" style="width:200px;">Future of AI</div></a></li>
+				<li><a href="../pages/contactus.html"><div class="navLink" style="width:151px;">Contact Us</div></a></li>
+			</ul>
+		</nav>
+	<div style="clear:both;"></div>
+	</header>
+	<main>
+		<div id="form_box">
+		<h1 style="padding:20px 0px 30px 0px;"><center>Contact Us</center></h1>
+		<i><center>Have any question? or Got any suggestions for us?</center></i>
+			<form name="feedback" action="mailto:L1C4G3@gmail.com" method="get">
+				<table id="table" >
+					<tr>
+						<td rowspan="3">
+							<textarea value="Enter Your Message Here" id="messagebox" onfocus="this.value ='';" onblur="if (this.value == '') {this.value = 'Enter Your Message Here';}" >Enter Your Message Here</textarea>
+						</td>
+						<td>
+							<input type="text" id="namebox" value="&nbsp;Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '&nbsp;Your  Name';}" >
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="email" id="emailbox" value="&nbsp;Your Email ID" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '&nbsp;Your  Email ID';}" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<center><input type="submit" value="SUBMIT" id="submitbtn"></center>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div style="clear:both;"></div>
+		<br>
+		<hr style="width:700px;float:left;" >
+		<hr style="width:700px;float:left;margin-top:5px;" >
+		<h1 id="title"><center>Our Team</center></h1>
+		<br>
+		<hr style="width:700px;float:right;" >
+		<hr style="width:700px;float:right;margin-top:5px;" >
+		<br>
+		<div class="box">
+				<img src="../images/pragyakar.png" class="img1">
+			<div class="text" style="float:left;">
+				<h4>Name: Pragyakar Joshi<br>
+				London-met ID: 15042998<br>
+				Email ID: pragyakar75@gmail.com<h4>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+		<hr>
+		<div class="box">
+				<img src="../images/erin.png" class="img2">
+			<div class="text" style="float:right;margin-right:30px;">
+				<h4 style="float:right;text-align:right;">Name: Erin Rai <br>
+				London-met ID: 15043008<br>
+				Email ID: erinrai666@gmail.com <h4>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+		<hr>
+		<div class="box">
+				<img src="../images/hrishav.png" class="img1">
+			<div class="text" style="float:left;">
+				<h4>Name: Hrishav Tandukar<br>
+				London-met ID: 15043026<br>
+				Email ID: hrishav.tandukar@gmail.com<h4>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+		<hr>
+		<div class="box">
+				<img src="../images/mohit.png" class="img2">
+			<div class="text" style="float:right;margin-right:30px;">
+				<h4 style="float:right;text-align:right;">Name: Mohit Katwal <br>
+				London-met ID: 15043006 <br>
+				Email ID: katuwal1234@yahoo.com<h4>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+		<hr>
+		<div class="box">
+				<img src="../images/pratik.png" class="img1">
+			<div class="text" style="float:left;">
+				<h4>Name: Pratik Khadka<br>
+				London-met ID:15043038<br>
+				Email ID: proke.khadka@gmail.com<h4>
+			</div>
+		</div>
+		<div style="clear:both;"></div>	
+	</main>
+	<footer>	
+		<small>
+		<center>
+			<a href="../index.html" class="footer_nav">Home</a> | 
+			<a href="../pages/history.html" class="footer_nav">History</a> | 
+			<a href="../pages/evolution.html" class="footer_nav">Evolution</a> | 
+			<a href="../pages/howitworks.html" class="footer_nav">How it Works</a> | 
+			<a href="../pages/prosandcons.html" class="footer_nav">Pros & Cons</a> | 
+			<a href="../pages/future.html" class="footer_nav">Future of AI</a> | 
+			<a href="../pages/contactus.html" class="footer_nav">Contact Us</a>
+			<br>
+			<br>
+			COPYRIGHT &copy; 2016 L1C4G3
+		</center>
+		</small>
+	</footer> 
+</body>
+</html>

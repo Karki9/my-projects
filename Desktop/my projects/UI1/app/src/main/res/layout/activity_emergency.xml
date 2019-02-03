@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khadka.ui1.Pages.Emergency">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_ui"
+            android:padding="10dp"
+            android:background="@color/backgroundcolor"
+            android:gravity="center">
+
+
+            <!--Nepal Police-->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/nepal_police"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundred"
+                            android:src="@drawable/police"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Nepal Police"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--Tourist Police-->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tourist_police"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundred"
+                            android:src="@drawable/police"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Tourist Police"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--Bir Hospital -->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/bir_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundyellow"
+                            android:src="@drawable/hospital"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Bir Hosptal"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--Bir Hospital -->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/patan_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundyellow"
+                            android:src="@drawable/hospital"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Patan Hospital"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--Bir Hospital -->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/teaching_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundyellow"
+                            android:src="@drawable/hospital"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Teaching Hosp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--Bir Hospital -->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/bandb_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundyellow"
+                            android:src="@drawable/hospital"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="BandB Hosptal"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--Bir Hospital -->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/teku_hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundyellow"
+                            android:src="@drawable/hospital"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Teku Hosptal"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--first linear layout-->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/alpine_rescue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundred"
+                            android:src="@drawable/rescue"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Alpine Rescue"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--Red Cross Ambulance-->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/redCross"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundpurple"
+                            android:src="@drawable/ambulance"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Red Cross "
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--Paropakar Ambulance-->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/paropakar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundpurple"
+                            android:src="@drawable/ambulance"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Paropakar "
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--first linear layout-->
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/sarathi_club"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundred"
+                            android:src="@drawable/taxi"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Sarathi club"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content">
+
+
+                <!-- cardview 1-->
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/onvert_taxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/circlebackgroundred"
+                            android:src="@drawable/taxi"
+                            android:padding="10dp"/>
+
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Onvert taxi "
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textSize="30dp"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circlebackgroundgreen"
+                            android:src="@drawable/call"
+                            android:padding="10dp"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+
+
+            <!--first linear layout-->
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+         />
+
+</RelativeLayout>

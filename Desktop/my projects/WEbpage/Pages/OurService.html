@@ -1,0 +1,820 @@
+<!DOCTYPE HTML>
+<!--html start-->
+<html>
+	<!--hhead start-->
+	<head>
+		<title>Premium Music Store |INDEX</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="icon" href="../img/ggg.jpg">
+		<style type="text/css">
+			*
+			{
+			margin:0px
+			}
+			header
+			{
+				
+				background-color:#262222;
+				width:1350px;
+				height:230px;
+				
+			}
+			nav 
+			{
+				background-color:#262222;
+				width:1350px;
+				height:40px;
+				margin-left:0px;
+				margin-top:5px;
+			}
+			.navLink
+			{
+				height: 30px;
+				padding-top:2px;
+				text-align: center;
+				color: white;
+			}
+			.navLink:hover
+			{
+				
+				background-color: white;
+				transition: 0.4s;
+				opacity: 0.6;
+			}
+			main 
+			{
+				background-color:#F18E186;
+				width:500px;
+				 height:450 px;
+				 margin-top: 10px;
+			}
+
+			.navLink2
+			{
+				height: 30px;
+				padding-top:2px;
+				text-align: center;
+				color: white;
+			}
+			.navLink2:hover
+			{
+				color: red;
+				background-color: white;
+				transition: 0.5s;
+			}
+			a
+			{
+				text-decoration: none; 
+				font-family: Eras ITC;
+				color: white;
+			}
+			footer
+			{
+				background-color:#262222;
+				width:1350px;
+				height:80px;
+				margin-top:800px;
+				margin-bottom:5px;
+			}
+			.footer_nav
+			{
+				color: white;
+			}
+			
+		</style> 
+		<script type="text/javascript">
+			function display(i){
+				
+				for(j=1;j<10;j++){
+					if(j!=i){
+				document.getElementById('is'+j).style.display = "none";
+				}
+				else{
+					document.getElementById('is'+i).style.display = "block";
+				}
+				}
+			}
+		</script>
+	</head>
+	<!--head end -->
+	<!--body start-->
+	<body style="margin-top:0px;margin:0px">
+		<!--header start-->
+		<header>
+		<!-- for first division after header-->
+		
+		<div style="width:1350px;height:180px;background-color:#262222">
+			
+			<!--logo start-->
+			<div style="background-color:#FD5D34;width:180px; height:160px;margin-left:10px;margin-bottom:10px;margin-top:10px;float:left;">
+			<!--logo end-->		
+				<img src="../img/LOGO.png" height="160px" width="180px"
+					 alt="logo" usemap="#Map" />
+					<map name="Map" id="Map">
+	    			<area alt="logo" title="logo" href="..//indexpage.html" shape="poly" coords="2,2,2,885,1120,886,1122,191,1119,2" />
+	    
+					</map>
+			</div>
+			<div style="width:1170;height:230px;">
+				<!-- for the title of the Store-->
+				<div style="width:1170;height:115px;">
+				<a href="../indexpage.html" style="float:left;font-size: 50px;color:#EFCE15; margin-left:20px;font-family: Candara ; margin-top: 40px; text-decoration: bold;"> <b>Premium Music Store</b> </a>
+				</div>
+
+			<!--  for searchbox-->
+				<div  style="background-color:#262222;width:400px;height:35px;margin-left:10px;float:left; border-radius: 15px 15px ; margin-top: 5px;">
+				<link rel="stylesheet" href="../css/style.css">
+				<script type="text/javascript">
+					function active()
+					 {
+						var searchBar = document.getElementById('searchbar');
+						if (searchBar.value =='Search...') 
+						{
+							searchbar.value=''
+							searchbar.placeholder='Search...'
+						}
+					}
+				
+				</script>
+				<form action=" search.php" method="post" >
+						<input type="text" id="searchBar" placeholder="" value="Search..." maxlength="25" autocomplete="off" onmousedown=" active();" onblur=""/ >
+						<input type="Submit" id="searchBtn" value="Go!"> 
+				</form>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		<!-- for the navigation bar-->
+		<nav>
+			<div style="width:1366px;margin-left:30px;">
+			<!--for index the pages-->
+			<div class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:15px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;">
+				<!--for the navigation link of home page-->
+				<a href="../indexPage.html" style="text-decoration:none; margin-left: 5px; font-family: Eras ITC; color: black; font-size: 18px; ">
+				Home </a> 
+			</div>
+			<!--for About us the pages-->
+			<div  class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;">
+				<!--for the navigation link of About us page-->
+				
+				<a href="../Pages/AboutUs.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; ">
+				About Us </a> 
+			</div>
+			<!--for our service the pages-->
+			<div class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;" >
+			<!--for the navigation link of our service page-->
+				
+				<a href="../Pages/OurService.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px;"> Our Service </a> 
+			</div>
+			</div>
+			<!--for news the pages-->
+			<div class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px;">
+			<!--for the navigation link of NEWS page-->
+				
+				<a href="../Pages/NEWS.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; "> NEWS </a> 
+			</div>
+			<!--for collection  pages-->
+			<div  class="navLink" style="background-color:#F7941D; width:130px; height:35px;margin-left:45px;margin-top:3px;float:left;  border-radius:5px 5px 5px 5px;">
+			<!--for the navigation link of About us page-->
+				
+				<a href="../Pages/Collection.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; ">
+				Collection </a> 
+			</div>
+			<!--for gallery the pages-->
+			<div  class="navLink" style="background-color:#F7941D; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left;  border-radius:5px 5px 5px 5px;">
+			<!--for the navigation link of gallery page-->
+				
+				<a href="../Pages/Gallery.html" style="text-decoration:none; margin-left: 0px;font-family: Eras ITC; color: black;font-size: 18px; ">
+				Gallery </a> 
+			</div>
+			
+			</div>
+		</nav>
+			<!-- for the first main-->
+			<main style="background-color:#F18E186;width:500px; height:600 px;margin-top: 10px;">
+			<div style="clear: both;">
+			<!-- background div-->
+			<div style="background-color:#F2E8CC; width:1350px; height:800px;  ">
+			
+			<div style="clear: both;">	</div>	
+					
+			
+			<!-- for the second navigation bar of instruments-->
+			<nav style="background-color:#F79F3E;width:1200px;height:48px;margin-left:30px; border-radius: 5px 5px 5px 5px">
+		
+			<div style="width:1001px;margin-left:30px; margin-top: 25px;">
+				
+				
+				<!--for GUitar-->
+				<div class="navLink2" style="background-color:#FF0000; width:140px; height:35px;margin-left:15px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px; text-align: center;box-shadow: 2px 2px 2px 2px black;">
+					<!--for the navigation link of guitar-->
+					
+					<a href="#" style="text-decoration:none; margin-left: 5px; " onclick=display(2)>
+					Guitars </a> 
+				</div>
+				
+				<!--for Drums-->
+				<div class="navLink2" style="background-color:#FF0000; width:120px; height:35px;margin-left:45px;margin-top:3px;float:left; border-radius: 5px 5px 5px 5px; text-align: center;box-shadow: 2px 2px 2px 2px black;">
+					<!--for the navigation link of drums-->
+					
+					<a href="#" style="text-decoration:none; " onclick=display(1)>
+					Drums </a> 
+				
+				</div>
+				<!--for Keyboards-->
+				<div class="navLink2" style="background-color:#FF0000; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left;border-radius: 5px 5px 5px 5px; text-align: center;box-shadow: 2px 2px 2px 2px black;">
+				<!--for the navigation link r keyboards-->
+					
+					<a href="#" style="text-decoration:none; " onclick=display(3)>
+					Keyboards </a> 
+				</div>
+				</div>
+				<!--for Gadgets-->
+				<div class="navLink2" style="background-color:#FF0000; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left;border-radius: 5px 5px 5px 5px; text-align: center;box-shadow: 2px 2px 2px 2px black;">
+				<!--for the navigation link of gadgets-->
+					
+					<a href="#" style="text-decoration:none; " onclick=display(4)>
+					Gadgets </a> </li>
+				</div>
+				<!--for collection  pages-->
+				<div class="navLink2" style="background-color:#FF0000; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left;border-radius: 5px 5px 5px 5px; text-align: center;box-shadow: 2px 2px 2px 2px black;">
+				<!--for the navigation link of synthesizers-->
+					
+					<a href="#" style="text-decoration:none; margin-left: 0px;" onclick=display(5)>
+					Synthesizers </a> 
+				</div>
+				<!--for gallery the pages-->
+				<div class="navLink2" style="background-color:#FF0000; width:140px; height:35px;margin-left:45px;margin-top:3px;float:left;border-radius: 5px 5px 5px 5px; text-align: center;box-shadow: 2px 2px 2px 2px black;">
+				<!--for the navigation link of bass-->
+					
+					<a href="#" style="text-decoration:none; margin-left: 0px;" onclick=display(6)>
+					bass </a> 
+				</div>
+				<!-- end of navigation bar for instruments-->
+				</nav>
+				
+				 <!-- for the description of the service of Drums-->
+				 <div  style="display:none;background-color:#F39E39;width:750px;height:650px;margin-left:20px;margin-top: 30px;float:left;" id="is1">
+				 	<!-- for the images 1 and description-->
+							<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 15px;float:left;">
+								<img src="../img/elec.jpg" style="height: 200px; width: 180px; margin-left: 10px;"> 
+							
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Acoustic and electric drums are repaired with the Customers requirements.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	low price for acoustic drum servicing.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;">
+							 	various pedals and plates with good quality.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;margin-top: 10px;">
+							 	 programmed sounds and drum paints.</p>
+							 	</article>
+							 </div>
+
+							 	<!-- for the images 2 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/drum1.jpg" style="height: 200px; width: 180px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Each parts of drums are repaired.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	snares and cymbals are available here.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	drumsets is available with heavy discount.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	skin Painting and Custom Design .</p>
+
+							 	</article>
+							  </div>
+
+						<!-- for the images3 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/drum2.jpg" style="height: 200px; width: 120px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px; margin-left: 10px;margin-top: 10px;">
+							 	we repair drums of all company.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px; margin-top: 10px;">
+							 	Imported snares, pedals, cymbals and hi-hats.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Custom Design drum set.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Good Quality drums.</p>
+
+							 	</article>
+							  </div>
+							
+							
+				 		</div>
+				 <!-- for the description of the service of keyboard-->
+				 <div  style="display:none;background-color:#F39E39;width:750px;height:650px;margin-left:20px;margin-top: 30px;float:left;" id="is3">
+				 	<!-- for the images 1 and description-->
+							<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 15px;float:left;">
+								<img src="../img/keyset.jpg" style="height: 200px; width: 300px; margin-left: 10px;"> 
+							
+								<article style="background-color: white; height: 200px; width: 350px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	keyboards are serviced with the Customers requirements.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	low price for small keyboards servicing.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;">
+							 	various keyboards with different size.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;margin-top: 10px;">
+							 	keyboard of different colors.</p>
+							 	</article>
+							 </div>
+
+							 	<!-- for the images 2 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/keyboard.jpg" style="height: 150px; width: 300px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 350px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Each parts of keyboards are repaired.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	adapters and pedals are available here.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	keyboard Set is available with heavy discount.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	speakers and amps available for keyboards.</p>
+
+							 	</article>
+							  </div>
+
+						<!-- for the images3 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/keyset1.jpg" style="height: 200px; width: 300px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 350px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px; margin-left: 10px;margin-top: 10px;">
+							 	we repair keyboards of all company.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px; margin-top: 10px;">
+							 	Imported keyboards and pedals.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Custom Design keyboards.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Good Quality sounds.</p>
+
+							 	</article>
+							  </div>
+							
+							
+				 </div>
+				 <!-- for the description of the service of gadget-->
+				 <div  style="display:none;background-color:#F39E39;width:750px;height:650px;margin-left:20px;margin-top: 30px;float:left;" id="is4">
+				 	<!-- for the images 1 and description-->
+							<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 15px;float:left;">
+								<img src="../img/mxr.jpg" style="height: 200px; width: 300px; margin-left: 10px;"> 
+							
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	custom design gadget available.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	pedal box available with suitable size.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;">
+							 	gadgets of differnet types available.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;margin-top: 10px;">
+							 	small and big sized.</p>
+							 	</article>
+							 </div>
+
+							 	<!-- for the images 2 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/boss.jpg" style="height: 200px; width: 250px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	gadgets are repaired.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Cables and adaptors are available here.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	gadget Set is available with heavy discount.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	board Painting and Custom Design .</p>
+
+							 	</article>
+							  </div>
+
+						<!-- for the images3 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/vox.jpg" style="height: 200px; width: 300px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px; margin-left: 10px;margin-top: 10px;">
+							 	we repair gadgets of all company.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px; margin-top: 10px;">
+							 	Imported gadgets.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Custom Design pedal boardsx.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Good Quality pedals.</p>
+
+							 	</article>
+							  </div>
+							
+							
+				 </div>
+				 <!-- for the description of the service of syntheizers-->
+				 <div  style="display:none;background-color:#F39E39;width:750px;height:650px;margin-left:20px;margin-top: 30px;float:left;" id="is5">
+				 	<!-- for the images 1 and description-->
+							<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 15px;float:left;">
+								<img src="../img/synth.jpg" style="height: 200px; width: 300px; margin-left: 10px;"> 
+							
+								<article style="background-color: white; height: 200px; width: 350px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Synthesizersare serviced with the Customers requirements.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	low price for Mini Synthesizer servicing.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;">
+							 	various devices with good quality.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;margin-top: 10px;">
+							 	Synthesizer repair.</p>
+							 	</article>
+							 </div>
+
+							 	<!-- for the images 2 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/dx.jpg" style="height: 200px; width: 300px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Synthesizers of different company available.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	speakers and portable device synth available.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	synthesizer Set is available with heavy discount.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Painting and Custom Design .</p>
+
+							 	</article>
+							  </div>
+
+						<!-- for the images3 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/sunth.jpg" style="height: 200px; width: 300px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px; margin-left: 10px;margin-top: 10px;">
+							 	we repair Synthesizers of all company.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px; margin-top: 10px;">
+							 	Imported Synthesizers.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Custom Design .</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Good Quality sound and various size available.</p>
+
+							 	</article>
+							  </div>
+							
+							
+				 </div>
+				 <!-- for the description of the service of bass-->
+				 <div  style="display:none;background-color:#F39E39;width:750px;height:650px;margin-left:20px;margin-top: 30px;float:left;" id="is6">
+				 	<!-- for the images 1 and description-->
+							<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 15px;float:left;">
+								<img src="../img/bass.jpg" style="height: 200px; width: 300px; margin-left: 10px;"> 
+							
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	bass guitar are serviced with the Customers requirements.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	low price for bass guitar servicing.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;">
+							 	various strings with good quality.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;margin-top: 10px;">
+							 	 bass guitar Paint.</p>
+							 	</article>
+							 </div>
+
+							 	<!-- for the images 2 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/bass3.jpg" style="height: 200px; width: 300px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Each parts of guitar are repaired.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Cables and pickups are available here.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	bass Set is available with heavy discount.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Fret Painting and Custom Design .</p>
+
+							 	</article>
+							  </div>
+
+						<!-- for the images3 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/bass4.jpg" style="height: 200px; width: 300px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px; margin-left: 10px;margin-top: 10px;">
+							 	we repair  bass guitar of all company.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px; margin-top: 10px;">
+							 	Imported Strings and Pickups.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	bas guitar upto 5 strings available</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Good Quality Fret Boards.</p>
+
+							 	</article>
+							  </div>
+							
+							
+				 </div>
+				 <!-- for the description of the service of guitar-->
+				<div  style="background-color:#F39E39;width:750px;height:650px;margin-left:20px;margin-top: 30px;float:left;display:block" id="is2">
+				
+							<!-- for the images 1 and description-->
+							<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 15px;float:left;">
+								<img src="../img/takamine.jpg" style="height: 200px; width: 180px; margin-left: 10px;"> 
+							
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Acoustic guitars are serviced with the Customers requirements.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	low price for acoustic guitar servicing.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;">
+							 	various strings with good quality.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;margin-top: 10px;">
+							 	guitar Paint.</p>
+							 	</article>
+							 </div>
+
+							 	<!-- for the images 2 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/GuitarPack.jpg" style="height: 200px; width: 250px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Each parts of guitar are repaired.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Cables and pickups are available here.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Guitar Set is available with heavy discount.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Fret Painting and Custom Design .</p>
+
+							 	</article>
+							  </div>
+
+						<!-- for the images3 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/Red GUitar.jpg" style="height: 200px; width: 120px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px; margin-left: 10px;margin-top: 10px;">
+							 	we repair guitar of all company.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px; margin-top: 10px;">
+							 	Imported Strings and Pickups.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Custom Design Guitar Belts.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Good Quality Fret Boards.</p>
+
+							 	</article>
+							  </div>
+							
+							
+						
+						
+				</div>
+				
+					
+				
+			<!-- for the pro audio, lights and DJ-->
+			<nav style="background-color:#F39B38;width:450px;height:48px;margin-left:0px;margin-top:25px;float: right; margin-right: 10px; border-radius: 5px 5px ">
+			<!-- end of   navigation bar-->
+				
+						<div  class="navLink2" style="background-color:#FF0000; width:120px; height:35px;margin-left:15px; margin-top: 3px;float:left;border-radius: 5px 5px 5px 5px; text-align: center;box-shadow: 2px 2px 2px 2px black;">
+						<!--for the pro audio-->
+						
+						<a href="#" style="text-decoration:none; " onclick=display(7)>
+						Pro audio </a> 
+						</div>
+						<!--for the light-->
+						<div class="navLink2" style="background-color:#FF0000; width:120px; height:35px;margin-left:15px; margin-top: 3px;float:left;border-radius: 5px 5px 5px 5px; text-align: center;box-shadow: 2px 2px 2px 2px black;">
+						<!--for the navigation link of our keyboards-->
+						
+						<a href="#" style="text-decoration:none; " onclick=display(8)>
+						lights</a> 
+						</div>
+					
+						<!--for DJ-->
+						<div class="navLink2" style="background-color:#FF0000; width:100px; height:35px;margin-left:15px; margin-top: 3px;float:left;border-radius: 5px 5px 5px 5px; text-align: center;box-shadow: 2px 2px 2px 2px black;">
+						<!--for the DJ-->
+						
+						<a href="#" style="text-decoration:none;" onclick=display(9)>
+						DJ </a> 
+						</div>
+						
+						<!-- for the description of the service of proaudio-->
+				 		<div  style="display:none;background-color:#F39E39;width:750px;height:650px;margin-left:-1250px;margin-top: 10px;float:left;" id="is7">
+				 				<!-- for the images 1 and description-->
+							<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 15px;float:left;">
+								<img src="../img/proaudio1.jpg" style="height: 200px; width: 300px; margin-left: 10px;"> 
+							
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	mixers and audio device are serviced .</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	low price for small audio device servicing.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;">
+							 	various programmed sound with good quality.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;margin-top: 10px;">
+							 	devices with various function available.</p>
+							 	</article>
+							 </div>
+
+							 	<!-- for the images 2 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/audio.jpg" style="height: 200px; width: 300px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Each parts of devices are repaired.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	jacks are available here.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	audio software are available with heavy discount.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	 audio softwares according to user requirements .</p>
+
+							 	</article>
+							  </div>
+
+						<!-- for the images3 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/proaudio.jpg" style="height: 200px; width: 300px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 380px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px; margin-left: 10px;margin-top: 10px;">
+							 	we repair mixers of all company.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px; margin-top: 10px;">
+							 	Imported devices and mixers.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	digital and analog audio devices.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	Good Quality mixers.</p>
+
+							 	</article>
+							  </div>
+							
+							  </div>
+				 
+				 	<!-- for the description of the service of DJ-->
+				 		<div  style="display:none;background-color:#F39E39;width:750px;height:650px;margin-left:-1250px;margin-top: 10px;float:left;" id="is9">
+				 				<!-- for the images 1 and description-->
+							<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 15px;float:left;">
+								<img src="../img/dj2.jpg" style="height: 200px; width: 180px; margin-left: 10px;"> 
+							
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	various lights available.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	low price for attached lights with speaker.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;">
+							 	changeable colours.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;margin-top: 10px;">
+							 	custom designed lights.</p>
+							 	</article>
+							 </div>
+
+							 	<!-- for the images 2 and Description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/dj.jpg" style="height: 200px; width: 180px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	lights are repaired.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	New lights available.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	lights with various design.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	hangable and remote control lights .</p>
+
+							 	</article>
+							  </div>
+
+						<!-- for the images3 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/dj1.jpg" style="height: 200px; width: 120px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px; margin-left: 10px;margin-top: 10px;">
+							 	focus lights available.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px; margin-top: 10px;">
+							 	with different colours and size.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	automatic and manual control.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	heavy discount on light products.</p>
+
+							 	</article>
+							  </div>
+							
+							  </div>
+							  <!-- for the description of the service of lights-->
+				 		<div  style="display:none;background-color:#F39E39;width:750px;height:650px;margin-left:-1250px;margin-top: 10px;float:left;" id="is8" >
+				 				<!-- for the images 1 and description-->
+							<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 15px;float:left;">
+								<img src="../img/light.jpg" style="height: 200px; width: 180px; margin-left: 10px;"> 
+							
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	various lights available.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	low price for attached lights with speaker.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;">
+							 	changeable colours.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;margin-top: 10px;margin-top: 10px;">
+							 	custom designed lights.</p>
+							 	</article>
+
+							 </div>
+
+							 	<!-- for the images 2 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/light1.jpg" style="height: 200px; width: 180px; margin-left: 10px;">
+								<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	lights are repaired.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	New lights available.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	lights with various design.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	hangable and remote control lights .</p>
+
+							 	</article>
+							  </div>
+
+						<!-- for the images3 and description-->
+						<div  style="background-color:white;width:700px;height:200px;margin-left:20px; margin-top: 10px;float:left;">
+								<img src="../img/light2.jpg" style="height: 200px; width: 120px; margin-left: 10px;">
+								
+							 	<article style="background-color: white; height: 200px; width: 500px;  float: right;">
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px; margin-left: 10px;margin-top: 10px;">
+							 	focus lights available.</p> 
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px; margin-top: 10px;">
+							 	with different colours and size.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	automatic and manual control.</p>
+							 	<p style="text-decoration: none; font-family: Eras ITC; color: black; font-size: 20px;  margin-left: 10px;margin-top: 10px;">
+							 	heavy discount on light products.</p>
+
+							 	</article>
+							  </div>
+							
+							  </div>
+						
+				<!-- for the advertisement photo-->
+				<div  style="background-color:#BD725B;width:380px;height:550px;margin-right:80px;margin-top: 30px;float:right;border-radius: 5px 5px 5px 5px;">
+				<img src="../img/ADV.jpg" style="height: 550px; width: 380px;">
+					
+					</div>
+				
+				<!-- end of division of navigation bar for pro audio, lights and DJ-->
+				</div>
+				<!-- end of nav fofr pro audio lights and DJ-->
+				</nav>
+				
+		
+		<!-- end of first main-->
+		</main>
+		</header>
+		<!--header end-->
+	</body>
+	<!--body end-->
+	<!-- for footer-->
+	<footer>
+		
+		<!-- for facebook-->
+		<img src="../img/fb1.png" height="60px" width="60px" style="margin-left: 10px; margin-top: 10px;"
+			< alt="" usemap="#Map0" />
+				<map name="Map0" id="Map0">
+    			<area alt="facebook" title="facebook" href="https://www.facebook.com/" shape="poly" coords="4,1,3,125,127,126,127,17,124,0" />
+    
+				</map>
+				<!-- for twitter-->
+		<img src="../img/twitter1.png" height="60px" width="60px" style="margin-left: 10px; margin-top: 10px;"  alt="" usemap="#Map1" />
+			<map name="Map1" id="Map1">
+			    <area alt="gmail" title="gmail" href="https://www.twitter.com/" shape="poly" coords="4,1,3,125,127,126,127,17,124,0" />
+			    <area alt="gmail" title="gmail" href="https://www.twitter.com/" shape="poly" coords="3,2,3,124,127,127,128,14,124,1" />
+			    
+			</map>
+			<!-- for gmail-->
+		<img src="../img/gmail1.png" height="60px" width="60px" style="margin-left: 10px; margin-top: 10px;"
+		 alt="gmail" usemap="#Map2" />
+		<map name="Map2" id="Map2">
+    		<area alt="gmail" title="gmail" href="https://www.gmail.com/" shape="poly" coords="4,1,2,127,126,126,127,1,3,125,127,126,127,17,124,0" />
+    		<area alt="gmail" title="gmail" href="https://www.gmail.com/" shape="poly" coords="3,2,3,124,127,127,128,14,124,1" />
+    		<area alt="gmail" title="gmail" href="https://www.gmail.com/" shape="rect" coords="4,1" />
+    
+		</map>
+
+		<p style="color:white; font-size: 18px; font-family: Eras ITC; margin-top:-40px; margin-left: 250px;">Copyright &copy; Pratik Khadka </p>
+		
+			<a href="../pages/Gallery.html" class="footer_nav" style="float: right;"> &nbspGallery&nbsp &nbsp</a> 
+			<a href="../pages/Collection.html" class="footer_nav" style="float: right;"> |&nbspCollection&nbsp|</a> 
+			<a href="../pages/NEWS.html" class="footer_nav" style="float: right;"> |&nbspNEWS&nbsp</a> 		 
+			<a href="../pages/OurService.html" class="footer_nav" style="float: right;"> |&nbspOur Service&nbsp</a> 
+			<a href="../pages/AboutUs.html" class="footer_nav" style="float: right;">  |&nbspAbout Us&nbsp</a> 
+			<a href="../indexpage.html" class="footer_nav" style="float: right; "> &nbspHome&nbsp</a> 
+			
+			
+			<br>
+
+
+		
+	</footer>
+</html>
+<!--html end-->

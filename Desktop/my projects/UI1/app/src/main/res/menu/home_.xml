@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_Emergency"
+        android:orderInCategory="104"
+        android:title="@string/action_Emergency"
+        android:icon="@drawable/emergency_call"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/travelAgenciesbar"
+        android:orderInCategory="200"
+        android:title="Travel Agencies"
+        android:icon="@drawable/office"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mapSearch"
+        android:orderInCategory="300"
+        android:title="Map"
+        android:icon="@drawable/searchmap"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_place_picker"
+        android:orderInCategory="102"
+        android:title="@string/action_Picker"
+        android:icon="@drawable/search"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_tips"
+        android:icon="@drawable/office"
+        android:orderInCategory="101"
+        android:title="@string/action_tips" />
+    <item
+        android:id="@+id/action_Logout"
+        android:orderInCategory="102"
+        android:title="@string/action_Logout"
+        android:icon="@drawable/exit"
+        app:showAsAction="never"/>
+</menu>

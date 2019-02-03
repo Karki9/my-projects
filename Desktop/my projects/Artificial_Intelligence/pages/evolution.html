@@ -1,0 +1,270 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>Evolution | Artificial Intelligence</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="icon" href="../images/logo.png">
+	<style type="text/css">
+	main
+	{
+		width: 1261px;
+	}
+	#title
+	{
+		padding-top: 20px;
+	}
+	p
+	{
+		font-size: 17px;
+		text-indent: 50px;
+		text-align: justify;
+	}
+	h2
+	{
+		padding: 20px 0px 0px 40px;
+		color: white;
+	}
+	.image
+	{
+		float: left;
+		height:190px;
+		width: 190px;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+	.info_text
+	{
+		padding: 0px 20px 20px 20px;
+		color: white;
+	}
+	#intro_para
+	{
+		height: 90px;
+		width: 1181px;
+		margin: 20px 0px 0px 40px;
+	}
+	
+	#ending
+	{
+		height: 80px;
+		width: 1181px;
+		float: left;
+		margin: 0px 40px 0px 40px;
+	}
+
+	/*For the Accordion Effect*/
+	.accordion
+	{
+	    background-color: #eee;
+	    color: #000;
+	    cursor: pointer;
+	    padding: 18px;
+	    width: 1151px;
+	    border: none;
+	    outline: none;
+	    font-size: 25px;
+	    transition: 0.4s;
+	    text-align: center;
+	}
+	.accordion.active, .accordion:hover 
+	{
+	    background-color: #000;
+	    color: #fff;
+	}
+	.accordion:after 
+	{
+	    content: '\02795';
+	    font-size: 23px;
+	    color: #777;
+	    float: right;
+	    margin-left: 5px;
+	}
+	.accordion.active:after 
+	{
+	    content: "\2796";
+	}
+
+	.panel 
+	{
+	    padding: 0 18px;
+	    background-color: black;
+	    max-height: 0;
+	    overflow: hidden;
+	    transition: 0.6s ease-in-out;
+	    opacity: 0;
+	    width: 1115px;
+	    float: left;
+	}
+	.panel.show 
+	{
+	    opacity: 1;
+	    max-height: 500px;  
+	}
+	/*For the right accordion effect*/
+	.accordion2
+	{
+	    background-color: #eee;
+	    color: #000;
+	    cursor: pointer;
+	    padding: 18px;
+	    width: 1151px;
+	    border: none;
+	    outline: none;
+	    font-size: 25px;
+	    transition: 0.4s;
+	    text-align: center;
+	    float: right;
+	}
+	.accordion2.active, .accordion2:hover 
+	{
+	    background-color: #000;
+	    color: #fff;
+	}
+	.accordion2:after 
+	{
+	    content: '\02795';
+	    font-size: 23px;
+	    color: #777;
+	    float: left;
+	    margin-left: 5px;
+	}
+	.accordion2.active:after 
+	{
+	    content: "\2796";
+	}
+
+	.panel2 
+	{
+	    padding: 0 18px;
+	    background-color: black;
+	    max-height: 0;
+	    overflow: hidden;
+	    transition: 0.6s ease-in-out;
+	    opacity: 0;
+	    width: 1115px;
+	    float: right;
+	}
+	.panel2.show 
+	{
+	    opacity: 1;
+	    max-height: 500px;  
+	}
+	
+	</style>
+
+</head>
+<body>
+	<header>
+		<img src="../images/logo2.png" id="logo" usemap="#mapping">
+		<map name="mapping">
+			<area shape="rect" coords="810,35,430,120" href="../index.html">
+		</map>
+		<nav>
+			<ul>
+				<li><a href="../index.html"><div class="navLink" style="margin-left:10px;width:125px;">Home</div></a></li>
+				<li><a href="../pages/history.html"><div class="navLink" style="width:150px;">History</div></a></li>
+				<li><a href="../pages/evolution.html"><div class="navLink" style="width:150px;">Evolution</div></a></li>
+				<li><a href="../pages/howitworks.html"><div class="navLink" style="width:200px;">How It Works</div></a></li>
+				<li><a href="../pages/prosandcons.html"><div class="navLink" style="width:200px;">Pros & Cons</div></a></li>
+				<li><a href="../pages/future.html"><div class="navLink" style="width:200px;">Future of AI</div></a></li>
+				<li><a href="../pages/contactus.html"><div class="navLink" style="width:151px;">Contact Us</div></a></li>
+			</ul>
+		</nav>
+	</header>
+	<div style="clear:both;"></div>
+	<main>
+		<h1 id="title"><center>Evolution</center></h1>
+		<div id="intro_para">
+			<p>An innovation turns from an idea into reality in a step by step process. Everyday numerous innovations are being innovated. Artificial Intelligence(AI) is one of them and like any other innovation, it has come a long way since Alan Turing first pioneered it in the 1950s. Since then, there has been rapid improvements in the field of AI. People have been working hard to bring AI to its full potential. It has been constantly evolving since the concept of AI was brought. Various new technologies are being created with the concept of AI. As it evolves, it has been getting better and better. </p>
+		</div>
+		<br>
+		<br>
+		<button class="accordion">1950s</button>
+			<div class="panel">
+   				<img src="../images/h9.png" class="image">
+    			<p class="info_text">Alan Turing introduced the Turing test in his paper "Computing Machinery and Intelligence". The origins of AI research are intimately linked with two landmark papers on chess playing by machine. They were composed in 1950 by Claude E. Shannon, a mathematician at Ringer Laboratories. Shannon's work motivated a youthful mathematician, John McCarthy, who was an exploration educator in science at Princeton College, joined Shannon in 1952 in arranging a meeting on automata concentrates, generally to advance typical demonstrating and work on the hypothesis of machine insight. After a year, Shannon masterminded McCarthy and another future pioneer in AI, Marvin Minsky, then a graduate understudy in science at Princeton and a member in the 1952 gathering, to work with him at Chime Research centers amid 1953. The man who at long last instituted the term man made brainpower and is viewed as the father of AI is John McCarthy. In 1956 he sorted out a meeting "The Dartmouth summer research venture on counterfeit consciousness" to draw the ability and aptitude of others keen on machine insight for a month of conceptualizing.</p>
+			</div>
+		<div style="clear:both;"></div>
+		<br>
+		<button class="accordion2">1960s</button>
+			<div class="panel2">
+   				<img src="../images/h10.png" class="image">
+    			<p class="info_text">In 1960s Joel Moses showed the force of typical thinking for combination issues in the Macsyma program, the main effective information based system in science. Leonard Uhr and Charles Vossler distributed "An Example Acknowledgment Program That Produces, Assesses, and Changes Its Own Administrators" in 1963, which portrayed one of the primary machine learning programs that could adaptively obtain and alter highlights. Marvin Minsky and Seymour Papert distributed Perceptrons, which exhibited the cut off points of basic neural nets. Alain Colmerauer built up the Prolog programming language. Ted Shortlife showed the force of tenet based frameworks for learning representation and surmising in restorative conclusion and treatment how now and then called the primary master framework. Hans Moravec built up the primary PC controlled vehicle to self-governingly arrange messed snag courses.</p>
+			</div>
+		<div style="clear:both;"></div>
+		<br>
+		<button class="accordion">1970s</button>
+			<div  class="panel">
+    			<img src="../images/h5.png" class="image">
+    			<p class="info_text">In 1970, William Wood at Bolte, Beranek and Newman in Boston imagined a parsing plan called the Expanded Move System. By blending linguistic structure rules with semantic examination, the plan could separate between the implications of sentences, for example, "The shoreline is sweltering" and "The kid is sweltering". In 1974, Paul J. Werbos created the back-engendering calculation, that empowered multilayer neural systems, that had the capacity to perform grouping operations past basic Perceptrons. Back-engendering was freely rediscovered in the mid 1980s by David Rumelhat and David Parker. In July of 1979, Best on the planet backgammon player, Luigi Manor of Italy, turned into the principal human champion of a prepackaged game to be vanquished by a PC system, which was composed by Hans Berliner of Carnegie Mellon. The project assessed its moves by assessing a weighted arrangement of criteria that deliberate the integrity of a move. It didn't utilize the option procedure of looking amongst all conceivable future moves and countermoves, a strategy utilized as a part of chess, as there are excesses of options in backgammon.</p>
+			</div>
+		<div style="clear:both;"></div>
+		<br>
+		<button class="accordion2">1980s</button>
+		<div  class="panel2">
+  			<img src="../images/h4.png" class="image">
+    		<p class="info_text">In the 1980s, neural systems turned out to be generally utilized because of the back proliferation calculation, initially portrayed by Paul Werbos in 1974. The group of Ernst Dickmanns fabricated the main robot autos, driving up to 55 mph on vacant boulevards. In 1980s, Fluffy rationale was presented in a fluffy prescient framework used to work the robotized metro trains in Sendai, Japan. This framework, planned by Hitachi, lessened vitality utilization by 10% and brought down the wiggle room in ceasing the trains at determined positions to under 10 centimeters. In 1985, MIT's Media Lab, committed to inquiring about media-related applications utilizing software engineering (counting computerized reasoning) and human science, was established under Jerome Weisner and Nicholas Negroponte. Toward the end of 1980s, Master frameworks were progressively utilized as a part of industry, and other AI procedures were being executed together with traditional programming, frequently unnoticed however with helpful impact. </p>
+		</div>
+		<div style="clear:both;"></div>
+		<br>
+		<button class="accordion">1990s</button>
+		<div  class="panel">
+   			<img src="../images/e8.png" class="image">
+    		<p class="info_text">The 1990s stamped significant accomplishments in numerous zones of AI and exhibitions of different applications. In 1995, one of Dickmanns' robot autos drove more than 1000 miles in movement at up to 110 mph. Deep Blue, a chess-playing PC, beat Garry Kasparov in a popular six-diversion match in 1997. The Barrier Propelled Research Ventures Organization expressed that the costs spared by actualizing AI techniques for planning units in the primary Persian Bay War have reimbursed the US government's whole interest in AI research following the 1950s. Honda assembled the main models of humanoid robots like the one portrayed previously. In 1999 May 17, A manmade brainpower framework, Remote Specialists, was given essential control of a rocket surprisingly. For two days Remote Specialists kept running on the on-board PC of Profound Space 1, while 60 million miles from earth. The objective of such control frameworks is to give less exorbitant, more fit control, that is more autonomous from ground control. Right now the troublesome occupation of shuttle control is finished by a group of rocket specialists. Offering control to locally available AI frameworks will empower these individuals to control more shuttle, and for more aspiring missions than conceivable before to be embraced. </p>
+		</div>
+		<div style="clear:both;"></div>
+		<br>
+		<button class="accordion2">2000 - Present</button>
+			<div  class="panel2">
+    			<img src="../images/future.png" class="image">
+    				<p class="info_text">At 2000, an ASIMO, a humanoid robot that uses AI to perform a multitude of functions arrived, courtesy of Honda. Likewise, in 2002, iRobot, founded by researchers at the MIT Artificial Intelligence Lab, introduced Roomba, a vacuum cleaning robot. By 2006, two million units had been sold. At, March 14 2004 the Defense Advanced Research Projects Agency (DARPA), the central research organization of the United States Department of Defense, sponsored the first DARPA Grand Challenge, a prize competition for autonomous (driverless) vehicles. The first Challenge took place on a desert course between Barstow, California to Primm, Nevada. No vehicles completed the course. At 2009, Google initiated its effort to develop a self-driving car. At 2011, Apple introduced Siri, a personal assistant installed onto its popular iPhone 4S. At last, at 2014 IPsoft introduced Amelia, a virtual agent for customer service capable of providing callers with an understanding, empathetic experience.</p>		
+			</div>
+			<div style="clear:both;"></div>
+			<br>
+		<div id="ending">
+			<p>This is how Artificial Intelligence has evolved form an idea to a reality and not just any reality, a reality that is having a huge impact in our lives. After all these years of hard work, the AI that we can witness today was developed and is still continuing to evolve. Since the 1950s, great progress has been achieved and AI has evolved in a significant way. The possibilites of AI also increases along with its evolution. 
+			</p>
+		</div>	
+		<div style="clear:both;"></div>
+	</main>
+	<footer>
+		<small>
+		<center>
+		<a href="../index.html" class="footer_nav">Home</a> | 
+		<a href="../pages/history.html" class="footer_nav">History</a> | 
+		<a href="../pages/evolution.html" class="footer_nav">Evolution</a> | 
+		<a href="../pages/howitworks.html" class="footer_nav">How it Works</a> | 
+		<a href="../pages/prosandcons.html" class="footer_nav">Pros & Cons</a> | 
+		<a href="../pages/future.html" class="footer_nav">Future of AI</a> | 
+		<a href="../pages/contactus.html" class="footer_nav">Contact Us</a>
+		</center>
+		</small>
+		<br>
+		<small><center>COPYRIGHT &copy; 2016 L1C4G3</center></small>
+	</footer>
+	<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) 
+	{
+    	acc[i].onclick = function()
+    	{
+        	this.classList.toggle("active");
+        	this.nextElementSibling.classList.toggle("show");
+ 		 }
+	}
+	var acc = document.getElementsByClassName("accordion2");
+	var i;
+
+	for (i = 0; i < acc.length; i++) 
+	{
+    	acc[i].onclick = function()
+    	{
+        	this.classList.toggle("active");
+        	this.nextElementSibling.classList.toggle("show");
+ 		 }
+	}
+	</script> 
+</body>
+</html>
